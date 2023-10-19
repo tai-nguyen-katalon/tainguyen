@@ -1,5 +1,5 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page signup'
+'step 1: Navigate to Page search aglaonema'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page signup'
+'step 2: Add visual checkpoint at Page search aglaonema'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Signup Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Search Aglaonema Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
