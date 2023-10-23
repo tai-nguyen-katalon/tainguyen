@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page featured'
+'step 1: Navigate to Page search imperial'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page featured'
+'step 2: Add visual checkpoint at Page search imperial'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Featured Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Successful Navigation and Search Results for Imperial_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

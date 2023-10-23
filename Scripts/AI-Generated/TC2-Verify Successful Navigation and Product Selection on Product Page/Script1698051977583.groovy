@@ -1,7 +1,7 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Initialize test session: Open browser and set view port'
 
@@ -29,7 +29,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 3: At Page productjIJ3EsWSN5rT5elgEdF click on button object'
+'step 3: At Page productjIJ3EsWSN5rT5elgEdF  click on button object --> navigate to Page productjIJ3EsWSN5rT5elgEdF'
 
 testObj = findTestObject('Object Repository/Page_product/button_object')
 
@@ -45,7 +45,7 @@ WebUI.enhancedClick(testObj)
 
 'step 4: Add visual checkpoint at Page productjIJ3EsWSN5rT5elgEdF'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Product Details Page after Clicking on Object_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Navigation and Product Selection on Product Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

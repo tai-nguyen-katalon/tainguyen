@@ -1,17 +1,20 @@
 Flow ID,Description,Test Steps,Flow Priority
-2,Verify Shop Page after Clicking on Shop Hyperlink,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink shop --> navigate to Page shop
-step 3: At Page shop click on button object
-step 4: Add visual checkpoint at Page shop",High
-1,Verify Product Details Page after Clicking on Object,"step 1: Navigate to Page home
+2,Verify Successful Navigation and Product Selection on Product Page,"step 1: Navigate to Page home
 step 2: At Page home click on h2 object --> navigate to Page productjIJ3EsWSN5rT5elgEdF
-step 3: At Page productjIJ3EsWSN5rT5elgEdF click on button object
+step 3: At Page productjIJ3EsWSN5rT5elgEdF  click on button object --> navigate to Page productjIJ3EsWSN5rT5elgEdF
 step 4: Add visual checkpoint at Page productjIJ3EsWSN5rT5elgEdF",High
-5,Verify Featured Page,"step 1: Navigate to Page featured
-step 2: Add visual checkpoint at Page featured",Low
-4,Verify Signin Page,"step 1: Navigate to Page signin
-step 2: Add visual checkpoint at Page signin",Low
-3,Verify Signup Page,"step 1: Navigate to Page signup
-step 2: Add visual checkpoint at Page signup",Low
-6,Verify Search Aglaonema Page,"step 1: Navigate to Page search aglaonema
-step 2: Add visual checkpoint at Page search aglaonema",Low
+1,Verify Successful Navigation to Shop Page,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink shop --> navigate to Page shop
+step 3: Add visual checkpoint at Page shop",High
+7,Verify Successful Navigation and Search Results for Pine tree,"step 1: Navigate to Page search pine%20tree
+step 2: Add visual checkpoint at Page search pine%20tree",Trivial
+8,Verify Successful Navigation and Search Results for Pine,"step 1: Navigate to Page search pine
+step 2: Add visual checkpoint at Page search pine",Trivial
+4,Verify Successful Navigation to Recommended Page,"step 1: Navigate to Page recommended
+step 2: Add visual checkpoint at Page recommended",Trivial
+5,Verify Successful Navigation to Sign In Page,"step 1: Navigate to Page signin
+step 2: Add visual checkpoint at Page signin",Trivial
+6,Verify Successful Navigation and Search Results for Imperial,"step 1: Navigate to Page search imperial
+step 2: Add visual checkpoint at Page search imperial",Trivial
+3,Verify Successful Navigation to Featured Page,"step 1: Navigate to Page featured
+step 2: Add visual checkpoint at Page featured",Trivial

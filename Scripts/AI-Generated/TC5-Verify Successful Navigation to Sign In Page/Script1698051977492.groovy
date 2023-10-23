@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page search aglaonema'
+'step 1: Navigate to Page signin'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page search aglaonema'
+'step 2: Add visual checkpoint at Page signin'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Search Aglaonema Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Successful Navigation to Sign In Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
