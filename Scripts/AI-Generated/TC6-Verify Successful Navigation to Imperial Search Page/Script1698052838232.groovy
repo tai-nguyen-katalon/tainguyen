@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page search imperial'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Successful Navigation and Search Results for Imperial_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Successful Navigation to Imperial Search Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
