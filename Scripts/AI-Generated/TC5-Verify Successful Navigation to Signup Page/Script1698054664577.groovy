@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page search pine%20tree'
+'step 1: Navigate to Page signup'
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
-'step 2: Add visual checkpoint at Page search pine%20tree'
+'step 2: Add visual checkpoint at Page signup'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Verify Successful Navigation to Pine Tree Search Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Successful Navigation to Signup Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Initialize test session: Open browser and set view port'
 
@@ -15,9 +15,9 @@ def setup() {
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
-'step 2: At Page home click on h2 object --> navigate to Page productjIJ3EsWSN5rT5elgEdF'
+'step 2: At Page home click on img object --> navigate to Page productjIJ3EsWSN5rT5elgEdF'
 
-testObj = findTestObject('Object Repository/Page_home/h2_object')
+testObj = findTestObject('Object Repository/Page_home/img_object')
 
 WebUI.delay(3)
 
@@ -29,7 +29,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 3: At Page productjIJ3EsWSN5rT5elgEdF  click on button object --> navigate to Page productjIJ3EsWSN5rT5elgEdF'
+'step 3: At Page productjIJ3EsWSN5rT5elgEdF  click on button object'
 
 testObj = findTestObject('Object Repository/Page_product/button_object')
 
@@ -45,7 +45,7 @@ WebUI.enhancedClick(testObj)
 
 'step 4: Add visual checkpoint at Page productjIJ3EsWSN5rT5elgEdF'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Navigation to Product Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Navigation and Product Display on Product Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

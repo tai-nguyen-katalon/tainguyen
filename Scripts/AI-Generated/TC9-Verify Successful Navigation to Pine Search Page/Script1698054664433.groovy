@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page search pine'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC8-Verify Successful Navigation to Pine Search Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC9-Verify Successful Navigation to Pine Search Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

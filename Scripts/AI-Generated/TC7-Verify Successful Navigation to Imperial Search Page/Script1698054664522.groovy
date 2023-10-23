@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page search imperial'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Successful Navigation to Imperial Search Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Verify Successful Navigation to Imperial Search Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
