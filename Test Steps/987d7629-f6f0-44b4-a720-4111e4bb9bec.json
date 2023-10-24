@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on img object --> navigate to Page productjIJ3EsWSN5rT5elgEdF",
+        "step 3: At Page productjIJ3EsWSN5rT5elgEdF  click on button object --> navigate to Page productjIJ3EsWSN5rT5elgEdF",
+        "step 4: Add visual checkpoint at Page productjIJ3EsWSN5rT5elgEdF"
+    ]
+}

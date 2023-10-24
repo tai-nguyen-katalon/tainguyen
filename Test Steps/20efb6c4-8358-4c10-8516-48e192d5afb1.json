@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to Page signin",
+        "step 2: Login at Page signin --> navigate to Page account",
+        "step 3: At Page account  click on li object",
+        "step 4: Add visual checkpoint at Page account"
+    ]
+}

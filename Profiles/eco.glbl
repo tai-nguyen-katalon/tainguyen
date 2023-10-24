@@ -2,6 +2,16 @@
 <GlobalVariableEntities>
     <GlobalVariableEntity>
         <description></description>
+        <initValue>'tai.nguyen@katalon.com'</initValue>
+        <name>username</name>
+    </GlobalVariableEntity>
+    <GlobalVariableEntity>
+        <description></description>
+        <initValue>'H1s0k@vn'</initValue>
+        <name>password</name>
+    </GlobalVariableEntity>
+    <GlobalVariableEntity>
+        <description></description>
         <initValue>'https://eco.aut.katalon.com'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
