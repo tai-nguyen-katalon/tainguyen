@@ -1,28 +1,29 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Successful Navigation to Product Page page Productjij3eswsn5rt5elgedf from Home,"step 1: Navigate to Page home
-step 2: At Page home click on img object --> navigate to Page productjIJ3EsWSN5rT5elgEdF
+2,Verify page Productjij3eswsn5rt5elgedf after Navigating to Home Clicking on Object h2 and Clicking on Object Button,"step 1: Navigate to Page home
+step 2: At Page home click on h2 object --> navigate to Page productjIJ3EsWSN5rT5elgEdF
 step 3: At Page productjIJ3EsWSN5rT5elgEdF  click on button object --> navigate to Page productjIJ3EsWSN5rT5elgEdF
 step 4: Add visual checkpoint at Page productjIJ3EsWSN5rT5elgEdF",High
-2,Verify Successful Navigation to Shop Page from Home,"step 1: Navigate to Page home
+3,Verify Page Shop after Navigating to Home Clicking on Shop Hyperlink and Clicking on Object Button,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink shop --> navigate to Page shop
 step 3: At Page shop click on button object
-step 4: Add visual checkpoint at Page shop",High
-4,Verify Successful Login and Navigation to Account Page,"step 1: Navigate to Page signin
+step 4: Add visual checkpoint at Page shop",Medium
+1,Verify Page Featured after Navigating to Home and Clicking on Featured Hyperlink,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink featured --> navigate to Page featured
+step 3: Add visual checkpoint at Page featured",Medium
+5,Verify page Account after Logging in at Signin Page and Clicking on Object li,"step 1: Navigate to Page signin
 step 2: Login at Page signin --> navigate to Page account
 step 3: At Page account  click on li object
 step 4: Add visual checkpoint at Page account",Trivial
-3,Verify Successful Login and Navigation to Account Edit Page,"step 1: Navigate to Page signin
+4,Verify page Account Edit after Logging in at Signin Page,"step 1: Navigate to Page signin
 step 2: Login at Page signin --> navigate to Page account edit
 step 3: Add visual checkpoint at Page account edit",Trivial
-5,Verify Successful Navigation to Featured Page,"step 1: Navigate to Page featured
-step 2: Add visual checkpoint at Page featured",Trivial
-6,Verify Successful Navigation to Recommended Page,"step 1: Navigate to Page recommended
+6,Verify Page Recommended after Navigating to Recommended Page,"step 1: Navigate to Page recommended
 step 2: Add visual checkpoint at Page recommended",Trivial
-8,Verify Successful Navigation to Imperial Search Page,"step 1: Navigate to Page search imperial
+8,Verify Page Search Imperial after Navigating to Search Imperial Page,"step 1: Navigate to Page search imperial
 step 2: Add visual checkpoint at Page search imperial",Trivial
-9,Verify Successful Navigation to Pine tree Search Page,"step 1: Navigate to Page search pine%20tree
-step 2: Add visual checkpoint at Page search pine%20tree",Trivial
-7,Verify Successful Navigation to Aglaonema Search Page,"step 1: Navigate to Page search aglaonema
+7,Verify Page Search Aglaonema after Navigating to Search Aglaonema Page,"step 1: Navigate to Page search aglaonema
 step 2: Add visual checkpoint at Page search aglaonema",Trivial
-10,Verify Successful Navigation to Pine Search Page,"step 1: Navigate to Page search pine
+10,Verify Page Search Pine after Navigating to Search Pine Page,"step 1: Navigate to Page search pine
 step 2: Add visual checkpoint at Page search pine",Trivial
+9,Verify Page Search Pine tree after Navigating to Search Pine20 tree Page,"step 1: Navigate to Page search pine%20tree
+step 2: Add visual checkpoint at Page search pine%20tree",Trivial
