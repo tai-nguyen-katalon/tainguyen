@@ -2,12 +2,12 @@
 <GlobalVariableEntities>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'tai.nguyen@katalon.com'</initValue>
+        <initValue>'tai.nguyen+3@katalon.com'</initValue>
         <name>username</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'H1s0k@vn'</initValue>
+        <initValue>'1qaz@Wsx'</initValue>
         <name>password</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
