@@ -1,26 +1,6 @@
 Flow ID,Description,Test Steps,Flow Priority
-3,Verify Successful Navigation to Product Page page Productjij3eswsn5rt5elgedf,"step 1: Navigate to Page home
-step 2: At Page home click on h2 object --> navigate to Page productjIJ3EsWSN5rT5elgEdF
-step 3: At Page productjIJ3EsWSN5rT5elgEdF  click on button object --> navigate to Page productjIJ3EsWSN5rT5elgEdF
-step 4: Add visual checkpoint at Page productjIJ3EsWSN5rT5elgEdF",High
-1,Verify Successful Navigation to Shop Page,"step 1: Navigate to Page home
+1,Verify successful navigation to Shop page from Home,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink shop --> navigate to Page shop
-step 3: Add visual checkpoint at Page shop",Medium
-2,Verify Successful Navigation to Featured Page,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink featured --> navigate to Page featured
-step 3: Add visual checkpoint at Page featured",Medium
-4,Verify Successful Login and Navigation to Account Page,"step 1: Navigate to Page signin
-step 2: Login at Page signin --> navigate to Page account
-step 3: Add visual checkpoint at Page account",Trivial
-6,Verify Successful Navigation to Signup Page,"step 1: Navigate to Page signup
-step 2: Add visual checkpoint at Page signup",Trivial
-8,Verify Successful Navigation to Account Edit Page,"step 1: Navigate to Page account edit
-step 2: Add visual checkpoint at Page account edit",Trivial
-7,Verify Successful Navigation to Imperial Search Page,"step 1: Navigate to Page search imperial
-step 2: Add visual checkpoint at Page search imperial",Trivial
-9,Verify Successful Navigation to Pine Tree Search Page,"step 1: Navigate to Page search pine%20tree
-step 2: Add visual checkpoint at Page search pine%20tree",Trivial
-5,Verify Successful Navigation to Recommended Page,"step 1: Navigate to Page recommended
-step 2: Add visual checkpoint at Page recommended",Trivial
-10,Verify Successful Navigation to Pine Search Page,"step 1: Navigate to Page search pine
-step 2: Add visual checkpoint at Page search pine",Trivial
+step 3: Add visual checkpoint at Page shop",High
+2,Verify successful navigation to Signup page,"step 1: Navigate to Page signup
+step 2: Add visual checkpoint at Page signup",Medium
