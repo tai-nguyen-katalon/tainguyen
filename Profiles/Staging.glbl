@@ -15,8 +15,8 @@
         <initValue>'https://eco.aut.katalon.com'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>eco</name>
+    <name>Staging</name>
     <tag></tag>
 </GlobalVariableEntities>

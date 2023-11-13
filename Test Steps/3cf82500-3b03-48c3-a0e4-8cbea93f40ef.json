@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on h2 object --> navigate to Page productjIJ3EsWSN5rT5elgEdF",
+        "step 3: At Page productjIJ3EsWSN5rT5elgEdF click on div object",
+        "step 4: At Page productjIJ3EsWSN5rT5elgEdF click on div react select 2 option 1",
+        "step 5: At Page productjIJ3EsWSN5rT5elgEdF click on button object",
+        "step 6: Add visual checkpoint at Page productjIJ3EsWSN5rT5elgEdF"
+    ]
+}
