@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page signup'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Signup Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Page Signup after navigating to Page Signup_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
