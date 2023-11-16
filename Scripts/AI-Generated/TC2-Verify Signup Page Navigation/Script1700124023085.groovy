@@ -1,5 +1,5 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '/signup')
 
 'step 2: Add visual checkpoint at Page signup'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Navigation to Signup Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Signup Page Navigation_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

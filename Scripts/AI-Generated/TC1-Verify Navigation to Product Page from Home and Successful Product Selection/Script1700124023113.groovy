@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Initialize test session: Open browser and set view port'
 
@@ -59,7 +59,7 @@ WebUI.enhancedClick(testObj)
 
 'step 5: Add visual checkpoint at Page product K4NRYijvUxibmx1WBFg7'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Navigation to Product Details Page from Home Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation to Product Page from Home and Successful Product Selection_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
