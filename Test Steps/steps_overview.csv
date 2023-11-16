@@ -1,8 +1,8 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Page Product K4nryijvuxibmx1wbfg7 after navigating to Page Shop and selecting an object,"step 1: Navigate to Page home
+1,Verify Successful Navigation to Product Details Page from Home Page,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink shop --> navigate to Page shop
 step 3: At Page shop click on div object --> navigate to Page product K4NRYijvUxibmx1WBFg7
 step 4: At Page product K4NRYijvUxibmx1WBFg7 click on button object
 step 5: Add visual checkpoint at Page product K4NRYijvUxibmx1WBFg7",High
-2,Verify Page Signup after navigating to Page Signup,"step 1: Navigate to Page signup
+2,Verify Successful Navigation to Signup Page,"step 1: Navigate to Page signup
 step 2: Add visual checkpoint at Page signup",Low
