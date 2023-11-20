@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page localhost direct:3000'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Navigation to page Localhost Direct3000_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify successful navigation to page Localhost Direct3000_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
