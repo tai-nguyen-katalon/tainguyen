@@ -1,10 +1,3 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Product Details Page for Product K4nryijvuxibmx1wbfg7,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink shop --> navigate to Page shop
-step 3: At Page shop click on h5 object --> navigate to Page product K4NRYijvUxibmx1WBFg7
-step 4: At Page product K4NRYijvUxibmx1WBFg7 click on div object
-step 5: At Page product K4NRYijvUxibmx1WBFg7 click on div react select 2 option 1
-step 6: At Page product K4NRYijvUxibmx1WBFg7 click on button object
-step 7: Add visual checkpoint at Page product K4NRYijvUxibmx1WBFg7",High
-2,Verify Signup Page,"step 1: Navigate to Page signup
-step 2: Add visual checkpoint at Page signup",Trivial
+1,Verify Successful Navigation to page Localhost Direct3000,"step 1: Navigate to Page localhost direct:3000
+step 2: Add visual checkpoint at Page localhost direct:3000",Trivial
