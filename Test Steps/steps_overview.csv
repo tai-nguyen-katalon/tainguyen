@@ -1,10 +1,23 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Product Details Page for Product K4nryijvuxibmx1wbfg7,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink shop --> navigate to Page shop
-step 3: At Page shop click on h5 object --> navigate to Page product K4NRYijvUxibmx1WBFg7
-step 4: At Page product K4NRYijvUxibmx1WBFg7 click on div object
-step 5: At Page product K4NRYijvUxibmx1WBFg7 click on div react select 2 option 1
-step 6: At Page product K4NRYijvUxibmx1WBFg7 click on button object
-step 7: Add visual checkpoint at Page product K4NRYijvUxibmx1WBFg7",High
-2,Verify Signup Page,"step 1: Navigate to Page signup
-step 2: Add visual checkpoint at Page signup",Trivial
+3,Verify Navigation to Cart Page from Product Page,"step 1: Navigate to Page product apple-iphone-15-new
+step 2: At Page product apple-iphone-15-new click on label object
+step 3: At Page product apple-iphone-15-new click on label object
+step 4: At Page product apple-iphone-15-new click on button object
+step 5: At Page product apple-iphone-15-new click on button object
+step 6: At Page product apple-iphone-15-new click on hyperlink cart --> navigate to Page cart
+step 7: Add visual checkpoint at Page cart",High
+1,Verify Navigation to Category Page from Home Page,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category click on hyperlink
+step 4: At Page category click on hyperlink
+step 5: At Page category click on button object
+step 6: Add visual checkpoint at Page category",High
+6,Verify Navigation to Checkout Shipping Address Page,"step 1: Navigate to Page checkout shipping-address
+step 2: Add visual checkpoint at Page checkout shipping-address",Medium
+5,Verify Navigation to Checkout Payment Page,"step 1: Navigate to Page checkout payment
+step 2: Add visual checkpoint at Page checkout payment",Medium
+4,Verify Navigation to Checkout Info Page,"step 1: Navigate to Page checkout info
+step 2: Add visual checkpoint at Page checkout info",Medium
+2,Verify Navigation to Home Page from Cart Page,"step 1: Navigate to Page cart
+step 2: At Page cart click on hyperlink --> navigate to Page home
+step 3: Add visual checkpoint at Page home",Medium
