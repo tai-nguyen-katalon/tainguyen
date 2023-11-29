@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '/checkout/info')
 
 'step 2: Add visual checkpoint at Page checkout info'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Navigation to Checkout Info Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Checkout Info Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

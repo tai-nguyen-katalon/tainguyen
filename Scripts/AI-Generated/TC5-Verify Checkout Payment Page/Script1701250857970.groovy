@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '/checkout/payment')
 
 'step 2: Add visual checkpoint at Page checkout payment'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Navigation to Checkout Payment Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Checkout Payment Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
