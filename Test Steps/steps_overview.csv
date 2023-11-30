@@ -1,23 +1,58 @@
 Flow ID,Description,Test Steps,Flow Priority
-3,Verify Page Cart after Navigating from Product Apple i Phone15 New and Adding Items to Cart,"step 1: Navigate to Page product apple-iphone-15-new
-step 2: At Page product apple-iphone-15-new click on label object
-step 3: At Page product apple-iphone-15-new click on label object
-step 4: At Page product apple-iphone-15-new click on button object
-step 5: At Page product apple-iphone-15-new click on button object
-step 6: At Page product apple-iphone-15-new click on hyperlink cart --> navigate to Page cart
-step 7: Add visual checkpoint at Page cart",High
-1,Verify Page Category after Navigating from Home and Selecting Phone Category,"step 1: Navigate to Page home
+7,Verify successful checkout process from Cart to Thank You page,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink category phone --> navigate to Page category
 step 3: At Page category click on hyperlink
-step 4: At Page category click on hyperlink
-step 5: At Page category click on button object
-step 6: Add visual checkpoint at Page category",High
-2,Verify Page Home after Navigating from Cart,"step 1: Navigate to Page cart
-step 2: At Page cart click on hyperlink --> navigate to Page home
-step 3: Add visual checkpoint at Page home",Medium
-5,Verify Page Checkout Payment,"step 1: Navigate to Page checkout payment
-step 2: Add visual checkpoint at Page checkout payment",Medium
-4,Verify Page Checkout Info,"step 1: Navigate to Page checkout info
-step 2: Add visual checkpoint at Page checkout info",Medium
-6,Verify Page Checkout Shipping Address,"step 1: Navigate to Page checkout shipping-address
-step 2: Add visual checkpoint at Page checkout shipping-address",Medium
+step 4: At Page category click on button object
+step 5: At Page category click on hyperlink cart --> navigate to Page cart
+step 6: At Page cart click on button object
+step 7: At Page cart click on button object --> navigate to Page checkout info
+step 8: At Page checkout info input on input email
+step 9: At Page checkout info click on input receive marketing info
+step 10: At Page checkout info click on button object --> navigate to Page checkout shipping-address
+step 11: At Page checkout shipping-address input on input shipping address first name
+step 12: At Page checkout shipping-address input on input shipping address last name
+step 13: At Page checkout shipping-address input on input shipping address address line 1
+step 14: At Page checkout shipping-address input on input shipping address zip
+step 15: At Page checkout shipping-address input on input shipping address city
+step 16: At Page checkout shipping-address input on input shipping address state
+step 17: At Page checkout shipping-address input on input shipping address phone
+step 18: At Page checkout shipping-address click on button object --> navigate to Page checkout payment
+step 19: At Page checkout payment click on input payment method id
+step 20: At Page checkout payment click on button object --> navigate to Page thank-youc1ea-95d6-4cf0-ac04-ed828b6a2fb3
+step 21: Add visual checkpoint at Page thank-youc1ea-95d6-4cf0-ac04-ed828b6a2fb3",High
+3,Verify successful navigation to Category page after applying filters,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category input on input price min
+step 4: At Page category input on input price max
+step 5: At Page category click on input in stock
+step 6: At Page category click on button object
+step 7: At Page category click on button object
+step 8: Add visual checkpoint at Page category",Low
+4,Verify successful navigation to Category page after clicking on Object button,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category click on button object
+step 4: Add visual checkpoint at Page category",Low
+6,Verify successful navigation to Product page after applying filters and clicking on Google Pixel7 Pro,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category input on input price min
+step 4: At Page category input on input price max
+step 5: At Page category click on input in stock
+step 6: At Page category click on button object
+step 7: At Page category click on hyperlink product google pixel pro --> navigate to Page product google-pixel-7-pro
+step 8: At Page product google-pixel-7-pro click on button object
+step 9: At Page product google-pixel-7-pro click on button object
+step 10: Add visual checkpoint at Page product google-pixel-7-pro",Low
+5,Verify successful navigation to Product page after clicking on Apple i Phone15 New,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink product apple iphone new --> navigate to Page product apple-iphone-15-new
+step 3: At Page product apple-iphone-15-new click on label object
+step 4: At Page product apple-iphone-15-new click on label object
+step 5: At Page product apple-iphone-15-new click on button object
+step 6: Add visual checkpoint at Page product apple-iphone-15-new",Trivial
+1,Verify successful navigation to Home page,"step 1: Navigate to Page home
+step 2: At Page home hover on li object
+step 3: Add visual checkpoint at Page home",Trivial
+2,Verify successful button click on Object,"step 1: Navigate to Page home
+step 2: At Page home click on button object
+step 3: Add visual checkpoint at Page home",Trivial
+8,Verify successful navigation to Cart page,"step 1: Navigate to Page cart
+step 2: Add visual checkpoint at Page cart",Trivial
