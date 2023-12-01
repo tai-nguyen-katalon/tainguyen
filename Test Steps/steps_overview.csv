@@ -2,4 +2,4 @@ Flow ID,Description,Test Steps,Flow Priority
 1,Verify successful navigation to Jamaica page,"step 1: Navigate to Page jamaica
 step 2: Add visual checkpoint at Page jamaica",High
 2,Verify successful navigation to Jamaica Internet Bundles page,"step 1: Navigate to Page jamaica internet-bundles
-step 2: Add visual checkpoint at Page jamaica internet-bundles",High
+step 2: Add visual checkpoint at Page jamaica internet-bundles",Low
