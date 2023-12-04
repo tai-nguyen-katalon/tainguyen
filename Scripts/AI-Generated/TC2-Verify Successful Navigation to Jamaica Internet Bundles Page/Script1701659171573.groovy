@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page jamaica'
+'step 1: Navigate to Page jamaica internet-bundles'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '/jamaica')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/jamaica/internet-bundles')
 
-'step 2: Add visual checkpoint at Page jamaica'
+'step 2: Add visual checkpoint at Page jamaica internet-bundles'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify successful navigation to Jamaica page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Navigation to Jamaica Internet Bundles Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
