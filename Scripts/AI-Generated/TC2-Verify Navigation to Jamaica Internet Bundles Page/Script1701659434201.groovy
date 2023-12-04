@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '/jamaica/internet-bundl
 
 'step 2: Add visual checkpoint at Page jamaica internet-bundles'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Navigation to Jamaica Internet Bundles Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Navigation to Jamaica Internet Bundles Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -1,5 +1,5 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Successful Navigation to Jamaica Page,"step 1: Navigate to Page jamaica
+1,Verify Navigation to Jamaica Page,"step 1: Navigate to Page jamaica
 step 2: Add visual checkpoint at Page jamaica",High
-2,Verify Successful Navigation to Jamaica Internet Bundles Page,"step 1: Navigate to Page jamaica internet-bundles
+2,Verify Navigation to Jamaica Internet Bundles Page,"step 1: Navigate to Page jamaica internet-bundles
 step 2: Add visual checkpoint at Page jamaica internet-bundles",Trivial
