@@ -2,21 +2,21 @@
 <GlobalVariableEntities>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'tai.nguyen+3@katalon.com'</initValue>
+        <initValue>'hunghaidoi934@gmail.com'</initValue>
         <name>username</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'1qaz@Wsx'</initValue>
+        <initValue>'123456adu'</initValue>
         <name>password</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'https://eco.aut.katalon.com'</initValue>
+        <initValue>'https://xuanan-gy.github.io'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>eco</name>
+    <name>SauceDemo - Microsoft Login - Tunnel with public host</name>
     <tag></tag>
 </GlobalVariableEntities>
