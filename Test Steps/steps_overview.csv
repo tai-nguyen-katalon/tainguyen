@@ -1,10 +1,39 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Product Details Page for Product K4nryijvuxibmx1wbfg7,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink shop --> navigate to Page shop
-step 3: At Page shop click on h5 object --> navigate to Page product K4NRYijvUxibmx1WBFg7
-step 4: At Page product K4NRYijvUxibmx1WBFg7 click on div object
-step 5: At Page product K4NRYijvUxibmx1WBFg7 click on div react select 2 option 1
-step 6: At Page product K4NRYijvUxibmx1WBFg7 click on button object
-step 7: Add visual checkpoint at Page product K4NRYijvUxibmx1WBFg7",High
-2,Verify Signup Page,"step 1: Navigate to Page signup
-step 2: Add visual checkpoint at Page signup",Trivial
+5,Verify Adding Item to Cart and Proceeding to Checkout,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category click on hyperlink
+step 4: At Page category click on button add to cart
+step 5: At Page category click on hyperlink cart --> navigate to Page cart
+step 6: At Page cart click on button increased
+step 7: At Page cart click on button object --> navigate to Page checkout info
+step 8: At Page checkout info input on input email
+step 9: At Page checkout info click on input receive marketing info
+step 10: At Page checkout info click on button object --> navigate to Page checkout shipping-address
+step 11: Add visual checkpoint at Page checkout shipping-address",High
+2,Verify Filtering and Adding Item to Cart from Category Page,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category input on input price min
+step 4: At Page category input on input price max
+step 5: At Page category click on input in stock
+step 6: At Page category click on button object
+step 7: At Page category click on button add to cart
+step 8: Add visual checkpoint at Page category",Low
+4,Verify Adding Item to Cart and Buying from Product Page,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category input on input price min
+step 4: At Page category input on input price max
+step 5: At Page category click on input in stock
+step 6: At Page category click on button object
+step 7: At Page category click on hyperlink product google pixel pro --> navigate to Page product google-pixel-7-pro
+step 8: At Page product google-pixel-7-pro click on button increased
+step 9: At Page product google-pixel-7-pro click on button buy
+step 10: Add visual checkpoint at Page product google-pixel-7-pro",Low
+3,Verify Adding Item to Cart from Category Page,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category click on button add to cart
+step 4: Add visual checkpoint at Page category",Low
+1,Verify Adding Item to Cart from Home Page,"step 1: Navigate to Page home
+step 2: At Page home click on button add to cart
+step 3: Add visual checkpoint at Page home",Trivial
+6,Verify Viewing Cart Page,"step 1: Navigate to Page cart
+step 2: Add visual checkpoint at Page cart",Trivial
