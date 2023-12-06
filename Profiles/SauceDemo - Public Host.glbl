@@ -12,11 +12,11 @@
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'https://localhost.direct:3000'</initValue>
+        <initValue>'https://www.saucedemo.com'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>SauceDemo - Local</name>
+    <name>SauceDemo - Public Host</name>
     <tag></tag>
 </GlobalVariableEntities>
