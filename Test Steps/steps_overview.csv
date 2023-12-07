@@ -10,7 +10,7 @@ step 8: At Page checkout info input on input email
 step 9: At Page checkout info click on input receive marketing info
 step 10: At Page checkout info click on button object --> navigate to Page checkout shipping-address
 step 11: Add visual checkpoint at Page checkout shipping-address",High
-2,Verify Filtering and Adding Item to Cart from Category Page,"step 1: Navigate to Page home
+2,Verify Filtering and Adding Item to Cart on Category Page,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink category phone --> navigate to Page category
 step 3: At Page category input on input price min
 step 4: At Page category input on input price max
@@ -18,7 +18,7 @@ step 5: At Page category click on input in stock
 step 6: At Page category click on button object
 step 7: At Page category click on button add to cart
 step 8: Add visual checkpoint at Page category",Low
-4,Verify Adding Item to Cart and Buying from Product Page,"step 1: Navigate to Page home
+4,Verify Buying Item on Product Page,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink category phone --> navigate to Page category
 step 3: At Page category input on input price min
 step 4: At Page category input on input price max
@@ -28,12 +28,12 @@ step 7: At Page category click on hyperlink product google pixel pro --> navigat
 step 8: At Page product google-pixel-7-pro click on button increased
 step 9: At Page product google-pixel-7-pro click on button buy
 step 10: Add visual checkpoint at Page product google-pixel-7-pro",Low
-3,Verify Adding Item to Cart from Category Page,"step 1: Navigate to Page home
+3,Verify Adding Item to Cart on Category Page,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink category phone --> navigate to Page category
 step 3: At Page category click on button add to cart
 step 4: Add visual checkpoint at Page category",Low
-1,Verify Adding Item to Cart from Home Page,"step 1: Navigate to Page home
+1,Verify Adding Item to Cart on Home Page,"step 1: Navigate to Page home
 step 2: At Page home click on button add to cart
 step 3: Add visual checkpoint at Page home",Trivial
-6,Verify Viewing Cart Page,"step 1: Navigate to Page cart
+6,Verify Cart Page Display,"step 1: Navigate to Page cart
 step 2: Add visual checkpoint at Page cart",Trivial
