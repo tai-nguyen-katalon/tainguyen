@@ -1,15 +1,20 @@
 Flow ID,Description,Test Steps,Flow Priority
-2,Verify Successful Checkout Process from Inventory Page to Checkout Step Two Page,"step 1: Navigate to Page home
-step 2: Login at Page home --> navigate to Page inventory html
-step 3: At Page inventory html click on button add to cart sauce labs backpack
-step 4: At Page inventory html click on hyperlink object --> navigate to Page cart html
-step 5: At Page cart html click on button checkout --> navigate to Page checkout-step-one html
-step 6: At Page checkout-step-one html input on input firstname
-step 7: At Page checkout-step-one html input on input lastname
-step 8: At Page checkout-step-one html input on input postalcode
-step 9: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html
-step 10: Add visual checkpoint at Page checkout-step-two html",High
-1,Verify Successful Login and Navigation to Inventory Page,"step 1: Navigate to Page home
-step 2: Login at Page home --> navigate to Page inventory html
-step 3: At Page inventory html click on button react burger menu btn
-step 4: Add visual checkpoint at Page inventory html",Low
+2,Verify Adding Multiple Items to Cart and Proceeding to Checkout,"step 1: Navigate to Page 21bb1d3e-726c-4f84-9339-authorize --> navigate to Page t
+step 2: Login at Page t --> navigate to Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK
+step 3: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on button add to cart sauce labs backpack
+step 4: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on button add to cart sauce labs bike light
+step 5: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on div object
+step 6: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on button add to cart sauce labs bolt t shirt
+step 7: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on hyperlink object --> navigate to Page cart html
+step 8: At Page cart html click on button checkout --> navigate to Page checkout-step-one html
+step 9: At Page checkout-step-one html input on input firstname
+step 10: At Page checkout-step-one html input on input lastname
+step 11: At Page checkout-step-one html input on input postalcode
+step 12: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html
+step 13: Add visual checkpoint at Page checkout-step-two html",High
+1,Verify Successful Login and Navigation to Inventory Page,"step 1: Navigate to Page 21bb1d3e-726c-4f84-9339-authorize --> navigate to Page t
+step 2: Login at Page t --> navigate to Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK
+step 3: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on button react burger menu btn
+step 4: Add visual checkpoint at Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK",Low
+3,Verify Successful Navigation to Checkout Complete Page,"step 1: Navigate to Page checkout-complete html
+step 2: Add visual checkpoint at Page checkout-complete html",Trivial

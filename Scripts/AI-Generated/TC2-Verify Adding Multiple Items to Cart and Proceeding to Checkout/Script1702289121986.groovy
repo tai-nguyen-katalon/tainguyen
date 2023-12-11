@@ -1,6 +1,7 @@
+import com.katalon.truetest.authentication.LoginProcess as LoginProcess
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
@@ -11,59 +12,15 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page home'
+'step 1: Navigate to Page 21bb1d3e-726c-4f84-9339-authorize --> navigate to Page t'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/21bb1d3e-726c-4f84-9339-51bc05929874/oauth2/v2.0/authorize')
 
-'step 2: Login at Page home --> navigate to Page inventory html'
+'step 2: Login at Page t --> navigate to Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK'
 
-'--> At login page input username'
+LoginProcess.ssoLoginWithMicrosoft()
 
-testObj = findTestObject('AI-Generated/Page_home/input_username')
-
-WebUI.delay(3)
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), '.*//?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.setText(testObj, GlobalVariable.username)
-
-'--> At login page input password'
-
-testObj = findTestObject('AI-Generated/Page_home/input_password')
-
-WebUI.delay(3)
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), '.*//?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.setText(testObj, GlobalVariable.password)
-
-'--> At login page submit login form'
-
-testObj = findTestObject('AI-Generated/Page_home/form_login_info')
-
-WebUI.delay(3)
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch(WebUI.getUrl(), '.*//?(?:#.*)?(?:\\?.*)?$', true)
-
-WebUI.submit(testObj)
-
-'--> Wait for login action to be completed'
-
-WebUI.delay(15)
-
-'step 3: At Page inventory html click on button add to cart sauce labs backpack'
+'step 3: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on button add to cart sauce labs backpack'
 
 testObj = findTestObject('AI-Generated/Page_inventory_html/button_add_to_cart_sauce_labs_backpack')
 
@@ -77,7 +34,49 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/inventory.html/?(?:#.*)?(?:\\?.*)?$', true
 
 WebUI.enhancedClick(testObj)
 
-'step 4: At Page inventory html click on hyperlink object --> navigate to Page cart html'
+'step 4: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on button add to cart sauce labs bike light'
+
+testObj = findTestObject('AI-Generated/Page_inventory_html/button_add_to_cart_sauce_labs_bike_light')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/inventory.html/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 5: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on div object'
+
+testObj = findTestObject('AI-Generated/Page_inventory_html/div_object')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/inventory.html/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 6: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on button add to cart sauce labs bolt t shirt'
+
+testObj = findTestObject('AI-Generated/Page_inventory_html/button_add_to_cart_sauce_labs_bolt_t_shirt')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*/inventory.html/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(testObj)
+
+'step 7: At Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK click on hyperlink object --> navigate to Page cart html'
 
 testObj = findTestObject('AI-Generated/Page_inventory_html/hyperlink_object')
 
@@ -91,7 +90,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/inventory.html/?(?:#.*)?(?:\\?.*)?$', true
 
 WebUI.enhancedClick(testObj)
 
-'step 5: At Page cart html click on button checkout --> navigate to Page checkout-step-one html'
+'step 8: At Page cart html click on button checkout --> navigate to Page checkout-step-one html'
 
 testObj = findTestObject('AI-Generated/Page_cart_html/button_checkout')
 
@@ -105,7 +104,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/cart.html/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 6: At Page checkout-step-one html input on input firstname'
+'step 9: At Page checkout-step-one html input on input firstname'
 
 testObj = findTestObject('AI-Generated/Page_checkout-step-one_html/input_firstname')
 
@@ -119,7 +118,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/checkout-step-one.html/?(?:#.*)?(?:\\?.*)?
 
 WebUI.setText(testObj, var_1_input_firstname)
 
-'step 7: At Page checkout-step-one html input on input lastname'
+'step 10: At Page checkout-step-one html input on input lastname'
 
 testObj = findTestObject('AI-Generated/Page_checkout-step-one_html/input_lastname')
 
@@ -133,7 +132,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/checkout-step-one.html/?(?:#.*)?(?:\\?.*)?
 
 WebUI.setText(testObj, var_2_input_lastname)
 
-'step 8: At Page checkout-step-one html input on input postalcode'
+'step 11: At Page checkout-step-one html input on input postalcode'
 
 testObj = findTestObject('AI-Generated/Page_checkout-step-one_html/input_postalcode')
 
@@ -147,7 +146,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/checkout-step-one.html/?(?:#.*)?(?:\\?.*)?
 
 WebUI.setText(testObj, var_3_input_postalcode)
 
-'step 9: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html'
+'step 12: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html'
 
 testObj = findTestObject('AI-Generated/Page_checkout-step-one_html/input_continue')
 
@@ -161,9 +160,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/checkout-step-one.html/?(?:#.*)?(?:\\?.*)?
 
 WebUI.enhancedClick(testObj)
 
-'step 10: Add visual checkpoint at Page checkout-step-two html'
+'step 13: Add visual checkpoint at Page checkout-step-two html'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Checkout Process from Inventory Page to Checkout Step Two Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Adding Multiple Items to Cart and Proceeding to Checkout_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -2,21 +2,21 @@
 <GlobalVariableEntities>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'standard_user'</initValue>
+        <initValue>'hunghaidoi934@gmail.com'</initValue>
         <name>username</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'secret_sauce'</initValue>
+        <initValue>'123456adu'</initValue>
         <name>password</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'https://www.saucedemo.com'</initValue>
+        <initValue>'https://xuanan-gy.github.io'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>SauceDemo - Public Host</name>
+    <name>SauceDemo - Microsoft Login - Tunnel with public host</name>
     <tag></tag>
 </GlobalVariableEntities>
