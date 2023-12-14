@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on hyperlink product apple iphone new --> navigate to Page product apple-iphone-15-new",
+        "step 3: At Page product apple-iphone-15-new click on label object",
+        "step 4: At Page product apple-iphone-15-new click on label object",
+        "step 5: At Page product apple-iphone-15-new click on button buy",
+        "step 6: At Page product apple-iphone-15-new click on hyperlink cart --> navigate to Page cart",
+        "step 7: At Page cart click on button increased",
+        "step 8: At Page cart click on button object --> navigate to Page checkout info",
+        "step 9: At Page checkout info input on input email",
+        "step 10: At Page checkout info click on input receive marketing info",
+        "step 11: At Page checkout info click on button object --> navigate to Page checkout shipping-address",
+        "step 12: At Page checkout shipping-address input on input shipping address first name",
+        "step 13: At Page checkout shipping-address input on input shipping address last name",
+        "step 14: At Page checkout shipping-address input on input shipping address address line 1",
+        "step 15: At Page checkout shipping-address input on input shipping address zip",
+        "step 16: At Page checkout shipping-address input on input shipping address city",
+        "step 17: At Page checkout shipping-address input on input shipping address state",
+        "step 18: At Page checkout shipping-address input on input shipping address phone",
+        "step 19: At Page checkout shipping-address click on button object --> navigate to Page checkout payment",
+        "step 20: At Page checkout payment click on input payment method id",
+        "step 21: At Page checkout payment click on button object --> navigate to Page thank-youb2601a8-b635-4021-9878-75ed6d833359",
+        "step 22: Add visual checkpoint at Page thank-youb2601a8-b635-4021-9878-75ed6d833359"
+    ]
+}
