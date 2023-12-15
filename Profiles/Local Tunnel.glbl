@@ -2,21 +2,21 @@
 <GlobalVariableEntities>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'tai.nguyen+3@katalon.com'</initValue>
+        <initValue>'standard_user'</initValue>
         <name>username</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'1qaz@Wsx'</initValue>
+        <initValue>'secret_sauce'</initValue>
         <name>password</name>
     </GlobalVariableEntity>
     <GlobalVariableEntity>
         <description></description>
-        <initValue>'https://eco.aut.katalon.com'</initValue>
+        <initValue>'http://localhost.direct:3000'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>False</defaultProfile>
+    <defaultProfile>True</defaultProfile>
     <description></description>
-    <name>eco</name>
+    <name>Local Tunnel</name>
     <tag></tag>
 </GlobalVariableEntities>
