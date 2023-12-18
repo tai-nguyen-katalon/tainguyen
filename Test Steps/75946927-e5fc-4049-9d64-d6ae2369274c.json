@@ -11,6 +11,7 @@
         "step 9: At Page checkout-step-one html input on input lastname",
         "step 10: At Page checkout-step-one html input on input postalcode",
         "step 11: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html",
-        "step 12: Add visual checkpoint at Page checkout-step-two html"
+        "step 12: At Page checkout-step-two html click on button finish --> navigate to Page checkout-complete html",
+        "step 13: Add visual checkpoint at Page checkout-complete html"
     ]
 }
