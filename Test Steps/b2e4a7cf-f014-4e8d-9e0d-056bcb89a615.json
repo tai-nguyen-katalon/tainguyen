@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home --> navigate to Page t",
+        "step 2: Login at Page t --> navigate to Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK",
+        "step 3: Navigate to Page inventory html#code=0 ASsAPh27IWxyhE-TOVG8BZK --> navigate to Page checkout-step-one html",
+        "step 4: Add visual checkpoint at Page checkout-step-one html"
+    ]
+}
