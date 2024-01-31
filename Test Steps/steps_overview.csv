@@ -1,39 +1,93 @@
-Flow ID,Description,Test Steps,Flow Priority
-5,Verify Adding Item to Cart and Proceeding to Checkout,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink category phone --> navigate to Page category
-step 3: At Page category click on hyperlink
-step 4: At Page category click on button add to cart
-step 5: At Page category click on hyperlink cart --> navigate to Page cart
-step 6: At Page cart click on button increased
-step 7: At Page cart click on button object --> navigate to Page checkout info
-step 8: At Page checkout info input on input email
-step 9: At Page checkout info click on input receive marketing info
-step 10: At Page checkout info click on button object --> navigate to Page checkout shipping-address
-step 11: Add visual checkpoint at Page checkout shipping-address",High
-2,Verify Filtering and Adding Item to Cart on Category Page,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink category phone --> navigate to Page category
-step 3: At Page category input on input price min
-step 4: At Page category input on input price max
-step 5: At Page category click on input in stock
-step 6: At Page category click on button object
-step 7: At Page category click on button add to cart
-step 8: Add visual checkpoint at Page category",Low
-4,Verify Buying Item on Product Page,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink category phone --> navigate to Page category
-step 3: At Page category input on input price min
-step 4: At Page category input on input price max
-step 5: At Page category click on input in stock
-step 6: At Page category click on button object
-step 7: At Page category click on hyperlink product google pixel pro --> navigate to Page product google-pixel-7-pro
-step 8: At Page product google-pixel-7-pro click on button increased
-step 9: At Page product google-pixel-7-pro click on button buy
-step 10: Add visual checkpoint at Page product google-pixel-7-pro",Low
-3,Verify Adding Item to Cart on Category Page,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink category phone --> navigate to Page category
-step 3: At Page category click on button add to cart
-step 4: Add visual checkpoint at Page category",Low
-1,Verify Adding Item to Cart on Home Page,"step 1: Navigate to Page home
-step 2: At Page home click on button add to cart
-step 3: Add visual checkpoint at Page home",Trivial
-6,Verify Cart Page Display,"step 1: Navigate to Page cart
-step 2: Add visual checkpoint at Page cart",Trivial
+Flow ID,Name,Description,Test Steps,Flow Priority
+0,Verify Successful Purchase of Apple i Phone15,Navigate to the home page and select the Apple category. Choose the iPhone 15 and proceed to purchase. Verify the contents of the shopping cart.,"step 1: Navigate to Page home
+step 2: At Page home, hover on li object
+step 3: At Page home, click on hyperlink apple > navigate to Page category apple
+step 4: At Page category apple, click on hyperlink iphone 15 > navigate to Page product
+step 5: At Page product, click on label object
+step 6: At Page product, click on label object
+step 7: At Page product, click on svg object
+step 8: At Page product, click on button buy
+step 9: At Page product, click on hyperlink place an order > navigate to Page cart
+step 10: At Page cart, click on button
+step 11: At Page cart, click on button remove
+step 12: Add visual checkpoint at Page cart",High
+1,Verify Purchase of Samsung Galaxy Z Fold4 Silicon Cover,Navigate to the home page and select the Accessories category. Set price range and view the Samsung Galaxy Z Fold 4 Silicon Cover. Proceed to purchase and verify the product details.,"step 1: Navigate to Page home
+step 2: At Page home, hover on li object
+step 3: At Page home, click on hyperlink accessories > navigate to Page category accessories
+step 4: At Page category accessories, input on input price min
+step 5: At Page category accessories, input on input price max
+step 6: At Page category accessories, click on button show 8
+step 7: At Page category accessories, click on hyperlink samsung galaxy z fold4 silicon cover > navigate to Page product
+step 8: At Page product, click on svg object
+step 9: At Page product, click on button buy
+step 10: Add visual checkpoint at Page product",High
+2,Verify Phone Category Display,Navigate to the home page and view the Phone category. Verify the display of the Phone category.,"step 1: Navigate to Page home
+step 2: At Page home, hover on li object
+step 3: At Page home, click on hyperlink phone > navigate to Page category phone
+step 4: At Page category phone, click on hyperlink by title
+step 5: At Page category phone, click on hyperlink by title
+step 6: At Page category phone, click on svg object
+step 7: Add visual checkpoint at Page category phone",Medium
+3,Verify Accessories Category Display,Navigate to the home page and view the Accessories category. Verify the display of the Accessories category.,"step 1: Navigate to Page home
+step 2: At Page home, hover on li object
+step 3: At Page home, click on hyperlink accessories > navigate to Page category accessories
+step 4: At Page category accessories, click on hyperlink by price
+step 5: At Page category accessories, click on hyperlink by price
+step 6: At Page category accessories, click on svg object
+step 7: Add visual checkpoint at Page category accessories",Medium
+4,Verify Samsung Category Display,Navigate to the home page and select the Samsung category. Verify the display of the Samsung category.,"step 1: Navigate to Page home
+step 2: At Page home, hover on li object
+step 3: At Page home, click on hyperlink samsung > navigate to Page category samsung
+step 4: At Page category samsung, click on hyperlink by title
+step 5: At Page category samsung, click on svg object
+step 6: At Page category samsung, click on label object
+step 7: At Page category samsung, click on label object
+step 8: At Page category samsung, click on button buy
+step 9: Add visual checkpoint at Page category samsung",Medium
+5,Verify Successful Completion of Checkout Process,Navigate through the checkout process by entering shipping and payment details. Complete the order and verify the thank you page.,"step 1: Navigate to Page home
+step 2: At Page home, hover on li object
+step 3: At Page home, click on svg object
+step 4: At Page home, click on hyperlink place an order > navigate to Page cart
+step 5: At Page cart, click on button
+step 6: At Page cart, click on button proceed to checkout > navigate to Page checkout info
+step 7: At Page checkout info, hover on div object
+step 8: At Page checkout info, click on input email
+step 9: At Page checkout info, input on input email
+step 10: At Page checkout info, click on input receive marketing info
+step 11: At Page checkout info, click on button continue to shipping > navigate to Page checkout shipping-address
+step 12: At Page checkout shipping-address, click on input delivery id
+step 13: At Page checkout shipping-address, hover on div object
+step 14: At Page checkout shipping-address, click on input shipping address first name
+step 15: At Page checkout shipping-address, hover on div object
+step 16: At Page checkout shipping-address, input on input shipping address first name
+step 17: At Page checkout shipping-address, click on input shipping address last name
+step 18: At Page checkout shipping-address, hover on div object
+step 19: At Page checkout shipping-address, input on input shipping address last name
+step 20: At Page checkout shipping-address, click on input shipping address address line 1
+step 21: At Page checkout shipping-address, hover on div object
+step 22: At Page checkout shipping-address, input on input shipping address address line 1
+step 23: At Page checkout shipping-address, click on input shipping address zip
+step 24: At Page checkout shipping-address, hover on div object
+step 25: At Page checkout shipping-address, input on input shipping address zip
+step 26: At Page checkout shipping-address, click on input shipping address city
+step 27: At Page checkout shipping-address, hover on div object
+step 28: At Page checkout shipping-address, input on input shipping address city
+step 29: At Page checkout shipping-address, click on input shipping address state
+step 30: At Page checkout shipping-address, hover on div object
+step 31: At Page checkout shipping-address, input on input shipping address state
+step 32: At Page checkout shipping-address, click on input shipping address phone
+step 33: At Page checkout shipping-address, input on input shipping address phone
+step 34: At Page checkout shipping-address, click on button continue to payment > navigate to Page checkout payment
+step 35: At Page checkout payment, click on input payment method id
+step 36: At Page checkout payment, click on button complete order > navigate to Page thank-you
+step 37: Add visual checkpoint at Page thank-you",Low
+6,Verify Purchase of Chekhly Na i Phone from Apple Category,Navigate to the home page and select the Chekhly Na iPhone category under Apple. Set price range and proceed to purchase. Verify the category details.,"step 1: Navigate to Page home
+step 2: At Page home, hover on li object
+step 3: At Page home, click on hyperlink apple > navigate to Page category chekhly-na-iphone
+step 4: At Page category chekhly-na-iphone, input on input price min
+step 5: At Page category chekhly-na-iphone, input on input price max
+step 6: At Page category chekhly-na-iphone, click on button show 6
+step 7: At Page category chekhly-na-iphone, click on svg object
+step 8: At Page category chekhly-na-iphone, click on label object
+step 9: At Page category chekhly-na-iphone, click on button buy
+step 10: Add visual checkpoint at Page category chekhly-na-iphone",Trivial
