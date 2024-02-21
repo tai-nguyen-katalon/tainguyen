@@ -1,19 +1,62 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Page Shop Functionality,Navigate to the home page and access the shop. Add an item to the basket and proceed to the checkout. Verify that the shop page functions correctly.,"step 1: Navigate to Page home
-step 2: At Page home, click on div object
-step 3: At Page home, click on div object
-step 4: At Page home, click on main object
-step 5: At Page home, click on main object
-step 6: At Page home, click on h2 object
-step 7: At Page home, click on h2 object > navigate to Page product
-step 8: At Page product, click on button add to basket
-step 9: At Page product, click on button add to basket
-step 10: At Page product, click on svg object
-step 11: At Page product, click on svg object
-step 12: At Page product, click on img object
-step 13: At Page product, click on img object
-step 14: At Page product, click on hyperlink object
-step 15: At Page product, click on hyperlink object > navigate to Page home
-step 16: At Page home, click on hyperlink shop
-step 17: At Page home, click on hyperlink shop > navigate to Page shop
-step 18: Add visual checkpoint at Page shop",Trivial
+1,Verify Successful Checkout Process from Recommended Page,Navigate to the recommended page and proceed to add items to the shopping cart. Complete the checkout process by signing in and verify the pageShop.,"step 1: Navigate to https://eco.aut.katalon.com/recommended
+step 2: Click on link
+step 3: Click on link  -> Navigate to
+step 4: Click on svg
+step 5: Click on svg  -> Navigate to shop
+step 6: Click on div
+step 7: Click on div  -> Navigate to product/*
+step 8: Click on div
+step 9: Click on div
+step 10: Click on div 'react-select-2-option-1'
+step 11: Click on div 'react-select-2-option-1'
+step 12: Click on button 'Add To Basket'
+step 13: Click on button 'Add To Basket'
+step 14: Click on svg
+step 15: Click on svg
+step 16: Click on button 'CHECK OUT'
+step 17: Click on button 'CHECK OUT'
+step 18: Click on button 'Sign in to checkout'
+step 19: Click on button 'Sign in to checkout' -> Navigate to signin
+step 20: Click on button 'Sign In '
+step 21: Click on button 'Sign In ' -> Navigate to
+step 22: Click on link 'Plant Now  '
+step 23: Click on link 'Plant Now  ' -> Navigate to shop
+step 24: Take full page screenshot as checkpoint",High
+2,Verify Successful Checkout Process from Home Page,Navigate to the recommended page and proceed to add items to the shopping cart. Complete the checkout process by providing necessary information and verify the pageCheckout.,"step 1: Navigate to https://eco.aut.katalon.com/recommended
+step 2: Click on link
+step 3: Click on link  -> Navigate to
+step 4: Click on svg
+step 5: Click on svg  -> Navigate to shop
+step 6: Click on svg
+step 7: Click on svg
+step 8: Click on button 'CHECK OUT'
+step 9: Click on button 'CHECK OUT' -> Navigate to checkout/*
+step 10: Click on div
+step 11: Click on button 'Next Step  '
+step 12: Click on button 'Next Step  '
+step 13: Click on input field 'fullname'
+step 14: Click on input field 'fullname'
+step 15: Click on input field 'email'
+step 16: Click on input field 'email'
+step 17: Click on input field 'address'
+step 18: Click on input field 'address'
+step 19: Click on input field 'address'
+step 20: Click on input field 'address'
+step 21: Enter input value in input field 'address'
+step 22: Enter input value in input field 'address'
+step 23: Click on input field 'email'
+step 24: Click on input field 'email'
+step 25: Click on input field 'email'
+step 26: Click on input field 'email'
+step 27: Enter input value in input field 'email'
+step 28: Enter input value in input field 'email'
+step 29: Enter input value in input field 'address'
+step 30: Enter input value in input field 'address'
+step 31: Click on input field
+step 32: Click on input field
+step 33: Enter input value in input field
+step 34: Click on button 'Next Step  '
+step 35: Enter input value in input field
+step 36: Click on button 'Next Step  '
+step 37: Take full page screenshot as checkpoint",Trivial
