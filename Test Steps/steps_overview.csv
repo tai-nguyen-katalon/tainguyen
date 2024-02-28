@@ -1,76 +1,137 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Navigation to Samsung Power and Cables Category,Navigate to the home page and access the Samsung category. Proceed to the Power and Cables subcategory and verify the page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+1,Verify Product Category Power and Cables,Navigate to the home page and access the power and cables category. Verify the page for power and cables.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Click on header
 step 3: Hover over list item
 step 4: Click on link 'Samsung' -> Navigate to page 'category/samsung'
 step 5: Hover over list item
 step 6: Click on link 'Samsung' -> Navigate to page 'category/power-and-cables'
 step 7: Take full page screenshot as checkpoint",High
-2,Verify Adding i Phone15 to Shopping Cart and Checkout Process,Navigate to the home page and select the Apple category. Add the iPhone 15 to the shopping cart and proceed to checkout. Complete the checkout process and verify the cart page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+2,Verify Shopping Cart and Checkout Process,Navigate to the home page and proceed with adding items to the shopping cart. Complete the checkout process and verify the cart page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Hover over list item
 step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
-step 4: Click on link 'iPhone 15' -> Navigate to page 'product/*'
-step 5: Click on label
-step 6: Click on label
+step 4: Click on div
+step 5: Click on svg  -> Navigate to page 'cart'
+step 6: Click on link 'Go shopping!' -> Navigate to page ''
+step 7: Click on svg
+step 8: Click on label
+step 9: Click on label
+step 10: Click on button ' Buy'
+step 11: Click on link ' Place an order' -> Navigate to page 'cart'
+step 12: Click on button '+'
+step 13: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
+step 14: Hover over div
+step 15: Click on input field 'email'
+step 16: Enter input value in input field 'email'
+step 17: Click on input field 'receive marketing info'
+step 18: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
+step 19: Click on div
+step 20: Click on link ' Back to the cart' -> Navigate to page 'cart'
+step 21: Take full page screenshot as checkpoint",High
+3,Verify Product Details and Purchase Flow,Navigate to the Google Pixel category and select a Samsung product. Proceed with the purchase flow and verify the product details.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/category/google-pixel
+step 2: Click on div
+step 3: Click on div
+step 4: Click on div
+step 5: Click on div
+step 6: Click on div
+step 7: Click on div
+step 8: Click on div
+step 9: Click on div
+step 10: Click on div
+step 11: Click on div
+step 12: Click on div
+step 13: Click on div
+step 14: Click on link 'Samsung'
+step 15: Click on link 'Samsung' -> Navigate to page 'category/samsung'
+step 16: Click on link  -> Navigate to page 'product/*'
+step 17: Click on button ' Buy'
+step 18: Click on button ' Buy'
+step 19: Click on svg
+step 20: Click on svg
+step 21: Click on label
+step 22: Click on label
+step 23: Click on label
+step 24: Click on label
+step 25: Take full page screenshot as checkpoint",High
+4,Verify Product Details for i Phone Accessories,Navigate to the home page and access the iPhone accessories category. Select an iPhone accessory and verify the product details.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Apple'
+step 4: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+step 5: Click on header
+step 6: Click on link 'K Cellphone Shop' -> Navigate to page ''
+step 7: Click on svg  -> Navigate to page 'cart'
+step 8: Click on link 'iPhone 15 Plus' -> Navigate to page 'product/*'
+step 9: Click on link 'Apple'
+step 10: Click on link 'Phone' -> Navigate to page 'category/phone'
+step 11: Click on link  -> Navigate to page 'product/*'
+step 12: Click on main
+step 13: Take full page screenshot as checkpoint",High
+5,Verify Checkout and Payment Process,Navigate to the Google Pixel category and add Samsung products to the cart. Proceed with the checkout and payment process. Verify the checkout and payment page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/category/google-pixel
+step 2: Click on button
+step 3: Click on button
+step 4: Click on link 'Samsung'
+step 5: Click on link 'Samsung' -> Navigate to page 'category/samsung'
+step 6: Click on svg
 step 7: Click on svg
 step 8: Click on button ' Buy'
-step 9: Click on link ' Place an order' -> Navigate to page 'cart'
-step 10: Click on button '+'
-step 11: Click on button 'Remove'
-step 12: Click on link 'Go shopping!'
-step 13: Take full page screenshot as checkpoint",High
-3,Verify Adding i Phone Case to Shopping Cart and Checkout Process,Navigate to the home page and select the Apple category. Add an iPhone case to the shopping cart and proceed to checkout. Verify the cart page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Hover over list item
-step 3: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
-step 4: Click on svg
-step 5: Click on label
-step 6: Click on button ' Buy'
-step 7: Click on link ' Place an order' -> Navigate to page 'cart'
-step 8: Take full page screenshot as checkpoint",Medium
-4,Verify Viewing and Buying Samsung Galaxy Z Fold4 Silicon Cover,"Navigate to the home page and access the Accessories category. Set the price range, search for the Samsung Galaxy Z Fold 4 Silicon Cover, and proceed to buy. Verify the product page.","step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Hover over list item
-step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'
-step 4: Enter input value in input field 'price min'
-step 5: Enter input value in input field 'price max'
-step 6: Click on button 'Search'
-step 7: Click on link 'Samsung Galaxy Z Fold4 Silicon Cover' -> Navigate to page 'product/*'
-step 8: Click on svg
 step 9: Click on button ' Buy'
-step 10: Take full page screenshot as checkpoint",Medium
-5,Verify Viewing Phone Category,Navigate to the home page and access the Phone category. Verify the phone category page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Hover over list item
-step 3: Click on link 'Phone' -> Navigate to page 'category/phone'
-step 4: Click on link 'By title'
-step 5: Click on link 'By title'
-step 6: Click on svg
-step 7: Take full page screenshot as checkpoint",Low
-6,Verify Viewing Accessories Category,Navigate to the home page and access the Accessories category. Verify the accessories category page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Hover over list item
-step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'
-step 4: Click on link 'By price'
-step 5: Click on link 'By price'
-step 6: Click on svg
-step 7: Take full page screenshot as checkpoint",Low
-7,Verify Viewing and Buying Samsung Products,Navigate to the home page and access the Samsung category. Search for and proceed to buy Samsung products. Verify the Samsung category page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Hover over list item
-step 3: Click on link 'Samsung' -> Navigate to page 'category/samsung'
-step 4: Click on link 'By title'
-step 5: Click on svg
-step 6: Click on label
-step 7: Click on label
-step 8: Click on button ' Buy'
-step 9: Take full page screenshot as checkpoint",Low
-8,Verify Navigation to Samsung Power and Cables Category,Navigate to the home page and access the Samsung category. Proceed to the Power and Cables subcategory and verify the page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Click on div
-step 3: Click on link 'Samsung' -> Navigate to page 'category/power-and-cables'
-step 4: Take full page screenshot as checkpoint",Low
-9,Verify Navigation to About Page,Navigate to the home page and access the About page. Verify the About page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Hover over list item
-step 3: Click on link 'About' -> Navigate to page 'about'
-step 4: Take full page screenshot as checkpoint",Trivial
-10,Verify Completing the Checkout Process,Navigate through the checkout process by entering shipping and payment details. Complete the order and verify the Thank You page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Hover over list item
-step 3: Click on svg
+step 10: Click on label
+step 11: Click on label
+step 12: Click on label
+step 13: Click on label
+step 14: Click on button ' Buy'
+step 15: Click on button ' Buy'
+step 16: Click on link ' Place an order'
+step 17: Click on link ' Place an order' -> Navigate to page 'cart'
+step 18: Click on button 'Proceed to checkout '
+step 19: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
+step 20: Hover over div
+step 21: Click on input field 'email'
+step 22: Click on input field 'email'
+step 23: Enter input value in input field 'email'
+step 24: Click on button 'CONTINUE TO SHIPPING'
+step 25: Click on button 'CONTINUE TO SHIPPING'
+step 26: Enter input value in input field 'email' -> Navigate to page 'checkout/shipping-address'
+step 27: Hover over div
+step 28: Click on input field 'shipping address.first name'
+step 29: Click on input field 'shipping address.first name'
+step 30: Hover over div
+step 31: Enter input value in input field 'shipping address.first name'
+step 32: Click on input field 'shipping address.last name'
+step 33: Enter input value in input field 'shipping address.first name'
+step 34: Click on input field 'shipping address.last name'
+step 35: Hover over div
+step 36: Enter input value in input field 'shipping address.last name'
+step 37: Enter input value in input field 'shipping address.last name'
+step 38: Click on input field 'shipping address.address line 1'
+step 39: Click on input field 'shipping address.address line 1'
+step 40: Hover over div
+step 41: Enter input value in input field 'shipping address.address line 1'
+step 42: Enter input value in input field 'shipping address.address line 1'
+step 43: Click on input field 'shipping address.zip'
+step 44: Click on input field 'shipping address.zip'
+step 45: Hover over div
+step 46: Enter input value in input field 'shipping address.zip'
+step 47: Click on input field 'shipping address.city'
+step 48: Enter input value in input field 'shipping address.zip'
+step 49: Click on input field 'shipping address.city'
+step 50: Hover over div
+step 51: Enter input value in input field 'shipping address.city'
+step 52: Click on input field 'shipping address.state'
+step 53: Click on input field 'shipping address.state'
+step 54: Enter input value in input field 'shipping address.city'
+step 55: Hover over div
+step 56: Enter input value in input field 'shipping address.state'
+step 57: Click on input field 'shipping address.phone'
+step 58: Enter input value in input field 'shipping address.state'
+step 59: Click on input field 'shipping address.phone'
+step 60: Enter input value in input field 'shipping address.phone'
+step 61: Click on button 'CONTINUE TO PAYMENT'
+step 62: Enter input value in input field 'shipping address.phone'
+step 63: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
+step 64: Take full page screenshot as checkpoint",High
+6,Verify Thank You Page after Completing Order,Navigate to the Google Pixel category and proceed with the checkout process. Verify the thank you page after completing the order.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/category/google-pixel
+step 2: Click on svg
+step 3: Click on link ' Place an order'
 step 4: Click on link ' Place an order' -> Navigate to page 'cart'
 step 5: Click on button '+'
 step 6: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
@@ -104,10 +165,114 @@ step 33: Enter input value in input field 'shipping address.phone'
 step 34: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
 step 35: Click on input field 'payment method id'
 step 36: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-step 37: Take full page screenshot as checkpoint",Trivial
-11,Verify Viewing and Buying i Phone15 Silicone Case with Mag Safe,Navigate to the home page and access the Apple category. Select an iPhone 15 silicone case with MagSafe and verify the product page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 37: Take full page screenshot as checkpoint",High
+7,Verify Shopping Cart and Removal of Items,Navigate to the home page and add an iPhone product to the shopping cart. Proceed with removing items from the cart and verify the cart page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Hover over list item
-step 3: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
-step 4: Click on div
-step 5: Click on link 'iPhone 15 Silicone Case with MagSafe' -> Navigate to page 'product/*'
-step 6: Take full page screenshot as checkpoint",Trivial
+step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
+step 4: Click on link 'iPhone 15' -> Navigate to page 'product/*'
+step 5: Click on label
+step 6: Click on label
+step 7: Click on svg
+step 8: Click on button ' Buy'
+step 9: Click on link ' Place an order' -> Navigate to page 'cart'
+step 10: Click on button '+'
+step 11: Click on button 'Remove'
+step 12: Click on link 'Go shopping!'
+step 13: Take full page screenshot as checkpoint",High
+8,Verify Product Details for Apple Products,Navigate to the home page and access the Apple product category. Select an Apple product and verify the product details.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Apple' -> Navigate to page 'product/*'
+step 4: Click on label
+step 5: Click on label
+step 6: Take full page screenshot as checkpoint",High
+9,Verify Product Details for i Phone15,Navigate to the home page and access the phone category. Select an iPhone 15 product and verify the product details.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Phone' -> Navigate to page 'category/phone'
+step 4: Enter input value in input field 'price min'
+step 5: Enter input value in input field 'price max'
+step 6: Click on button 'Show (4)'
+step 7: Click on link 'iPhone 15' -> Navigate to page 'product/*'
+step 8: Click on div
+step 9: Take full page screenshot as checkpoint",High
+10,Verify Shipping Address Information,Navigate to the home page and proceed with the checkout process. Verify the shipping address information page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Click on link 'Accessories' -> Navigate to page 'checkout/info'
+step 3: Hover over div
+step 4: Click on input field 'email'
+step 5: Enter input value in input field 'email'
+step 6: Click on input field 'receive marketing info'
+step 7: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
+step 8: Take full page screenshot as checkpoint",High
+11,Verify Shopping Cart for Apple Accessories,Navigate to the home page and access the Apple accessories category. Add an Apple accessory to the cart and verify the cart page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Apple'
+step 4: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+step 5: Click on svg
+step 6: Click on label
+step 7: Click on button ' Buy'
+step 8: Click on link ' Place an order' -> Navigate to page 'cart'
+step 9: Take full page screenshot as checkpoint",High
+12,Verify Product Details for Samsung Accessories,Navigate to the home page and access the Samsung power and cables category. Select a Samsung product and verify the product details.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Click on link 'Accessories'
+step 3: Click on link 'Samsung' -> Navigate to page 'category/power-and-cables'
+step 4: Click on link  -> Navigate to page 'product/*'
+step 5: Take full page screenshot as checkpoint",High
+13,Verify Home Page Navigation,Navigate to the home page and verify the navigation to the home page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Click on header
+step 3: Click on header
+step 4: Take full page screenshot as checkpoint",Medium
+14,Verify Product Details for i Phone15 Plus,Navigate to the home page and access the iPhone 15 Plus product. Verify the product details.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Click on link 'iPhone 15 Plus' -> Navigate to page 'product/*'
+step 3: Take full page screenshot as checkpoint",Medium
+15,Verify Product Details for Samsung Galaxy Z Fold4 Silicon Cover,Navigate to the home page and access the accessories category. Select a Samsung Galaxy Z Fold 4 Silicon Cover and verify the product details.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'
+step 4: Enter input value in input field 'price min'
+step 5: Enter input value in input field 'price max'
+step 6: Click on button 'Show (8)'
+step 7: Click on link 'Samsung Galaxy Z Fold4 Silicon Cover' -> Navigate to page 'product/*'
+step 8: Click on svg
+step 9: Click on button ' Buy'
+step 10: Take full page screenshot as checkpoint",Medium
+16,Verify Product Category Samsung,Navigate to the home page and access the Samsung category. Verify the Samsung category page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Samsung' -> Navigate to page 'category/samsung'
+step 4: Click on link 'By title'
+step 5: Click on svg
+step 6: Click on label
+step 7: Click on label
+step 8: Click on button ' Buy'
+step 9: Take full page screenshot as checkpoint",Medium
+17,Verify Product Category Phone,Navigate to the home page and access the phone category. Verify the phone category page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Phone' -> Navigate to page 'category/phone'
+step 4: Click on link 'By title'
+step 5: Click on link 'By title'
+step 6: Click on svg
+step 7: Take full page screenshot as checkpoint",Low
+18,Verify Product Details for i Phone15 Silicone Case with Mag Safe,Navigate to the home page and access the iPhone accessories category. Select an iPhone accessory and verify the product details.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Apple'
+step 4: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+step 5: Click on div
+step 6: Click on link 'iPhone 15 Silicone Case with MagSafe' -> Navigate to page 'product/*'
+step 7: Take full page screenshot as checkpoint",Low
+19,Verify Product Category Accessories,Navigate to the home page and access the accessories category. Verify the accessories category page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'
+step 4: Click on link 'By price'
+step 5: Click on link 'By price'
+step 6: Click on svg
+step 7: Take full page screenshot as checkpoint",Low
+20,Verify About Page,Navigate to the home page and access the about page. Verify the about page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'About' -> Navigate to page 'about'
+step 4: Take full page screenshot as checkpoint",Low
+21,Verify Purchase Process for i Phone Cases Category,Navigate to the home page and select the iPhone cases category. Proceed to select a specific item and complete the purchase process. Verify that the iPhone cases category page functions correctly.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link 'Apple'
+step 4: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+step 5: Click on div
+step 6: Click on svg
+step 7: Click on label
+step 8: Click on button ' Buy'
+step 9: Take full page screenshot as checkpoint",Trivial

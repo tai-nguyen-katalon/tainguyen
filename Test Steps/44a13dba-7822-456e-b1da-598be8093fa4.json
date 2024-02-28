@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Hover over list item",
+        "step 3: Click on link 'Apple'",
+        "step 4: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'",
+        "step 5: Click on header",
+        "step 6: Click on link 'K Cellphone Shop' -> Navigate to page ''",
+        "step 7: Click on svg  -> Navigate to page 'cart'",
+        "step 8: Click on link 'iPhone 15 Plus' -> Navigate to page 'product/*'",
+        "step 9: Click on link 'Apple'",
+        "step 10: Click on link 'Phone' -> Navigate to page 'category/phone'",
+        "step 11: Click on link  -> Navigate to page 'product/*'",
+        "step 12: Click on main",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}
