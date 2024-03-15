@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Navigation and Ordering Process from Home Page,Navigate to the home page and proceed to place an order. Verify the successful navigation and ordering process from the home page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+1,Verify Successful Navigation to Home Page and Placing an Order,"Navigate to the home page and perform a series of actions including hovering, clicking, and inputting information. Proceed to place an order and verify the home page.","step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Hover over list item
 step 3: Click on link
 step 4: Click on link  -> Navigate to page 'category/*'
@@ -8,4 +8,45 @@ step 6: Click on link ' Place an order' -> Navigate to page 'cart'
 step 7: Click on button 'Proceed to checkout '
 step 8: Click on link 'K Cellphone Shop'
 step 9: Click on link 'K Cellphone Shop' -> Navigate to page ''
-step 10: Take full page screenshot as checkpoint",Trivial
+step 10: Take full page screenshot as checkpoint",High
+3,Verify Product Page after Filtering and Selecting Options,Navigate to the home page and perform multiple form submissions and clicks to filter and select options. Verify the displayed product page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Hover over list item
+step 3: Click on link
+step 4: Click on link  -> Navigate to page 'category/*'
+step 5: Click on form
+step 6: Click on form
+step 7: Click on div
+step 8: Click on div
+step 9: Enter input value in input field 'price min'
+step 10: Click on input field 'price max'
+step 11: Enter input value in input field 'price min'
+step 12: Click on input field 'price max'
+step 13: Enter input value in input field 'price max'
+step 14: Click on button
+step 15: Enter input value in input field 'price max'
+step 16: Click on button
+step 17: Click on div
+step 18: Click on div
+step 19: Click on input field 'price max'
+step 20: Click on input field 'price max'
+step 21: Click on div
+step 22: Click on div
+step 23: Enter input value in input field 'price max'
+step 24: Enter input value in input field 'price max'
+step 25: Click on div
+step 26: Click on div
+step 27: Click on svg
+step 28: Click on svg
+step 29: Click on link
+step 30: Click on link  -> Navigate to page 'product/*'
+step 31: Take full page screenshot as checkpoint",Medium
+4,Verify Product Page after Navigating through KCellphone Shop,Navigate to the home page and access the KCellphoneShop. Proceed through multiple links and verify the displayed product page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Click on link 'K Cellphone Shop'
+step 3: Click on link 'K Cellphone Shop'
+step 4: Click on link 'K Cellphone Shop'
+step 5: Click on link 'K Cellphone Shop' -> Navigate to page 'product/*'
+step 6: Take full page screenshot as checkpoint",Medium
+2,Verify Successful Navigation and Button Click on the Home Page,Navigate to the home page and click on the main object's button. Verify the functionality on the home page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+step 2: Click on main
+step 3: Click on button
+step 4: Take full page screenshot as checkpoint",Trivial
