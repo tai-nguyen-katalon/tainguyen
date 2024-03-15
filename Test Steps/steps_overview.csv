@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Order Placement from Home Page,Navigate to the home page and proceed to place an order. Select the desired item and verify the home page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+1,Verify Successful Order Placement from Home Page,Navigate to the home page and proceed to place an order. Select the desired item and complete the checkout process. Verify the successful placement of the order.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Hover over list item
 step 3: Click on link
 step 4: Click on link  -> Navigate to page 'category/*'
@@ -9,21 +9,21 @@ step 7: Click on button 'Proceed to checkout '
 step 8: Click on link 'K Cellphone Shop'
 step 9: Click on link 'K Cellphone Shop' -> Navigate to page ''
 step 10: Take full page screenshot as checkpoint",High
-6,Verify Category Page Navigation from Home Page,Navigate to the home page and access the category page. Verify the displayed category page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+6,Verify Navigation to Category Page,Navigate to the home page and access the category page. Verify successful navigation to the category page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Hover over list item
 step 3: Click on link
 step 4: Click on link  -> Navigate to page 'category/*'
 step 5: Click on link
 step 6: Click on link
 step 7: Take full page screenshot as checkpoint",High
-7,Verify Category Page Filters from Home Page,Navigate to the home page and apply filters on the category page. Verify the displayed category page with applied filters.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+7,Verify Application of Filters on Category Page,Navigate to the home page and access the category page. Apply filters and verify their successful application on the category page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Hover over list item
 step 3: Click on link
 step 4: Click on link  -> Navigate to page 'category/*'
 step 5: Click on button 'Filters'
 step 6: Click on button 'Filters'
 step 7: Take full page screenshot as checkpoint",High
-3,Verify Product Details Page Navigation from Home Page,Navigate to the home page and access the product details page. Verify the displayed product details page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+3,Verify Product Details on Product Page,Navigate to the home page and access the product page. Input and select product details. Verify the displayed product details on the product page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Hover over list item
 step 3: Click on link
 step 4: Click on link  -> Navigate to page 'category/*'
@@ -54,17 +54,17 @@ step 28: Click on svg
 step 29: Click on link
 step 30: Click on link  -> Navigate to page 'product/*'
 step 31: Take full page screenshot as checkpoint",Medium
-4,Verify Product Details Page Navigation from Home Page,Navigate to the home page and access the product details page. Verify the displayed product details page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+4,Verify Product Details on Product Page,Navigate to the home page and access the product page. Verify the displayed product details on the product page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Click on link 'K Cellphone Shop'
 step 3: Click on link 'K Cellphone Shop'
 step 4: Click on link 'K Cellphone Shop'
 step 5: Click on link 'K Cellphone Shop' -> Navigate to page 'product/*'
 step 6: Take full page screenshot as checkpoint",Medium
-2,Verify Home Page Navigation and Interaction,Navigate to the home page and interact with the main object. Verify the displayed home page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+2,Verify Navigation to Home Page,Navigate to the home page and verify successful navigation to the home page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Click on main
 step 3: Click on button
 step 4: Take full page screenshot as checkpoint",Trivial
-5,Verify Product Details Page Navigation from Home Page,Navigate to the home page and access the product details page. Verify the displayed product details page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+5,Verify Navigation to Product Page from Hot New,Navigate to the home page and access the product page from the hot new section. Verify successful navigation to the product page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 step 2: Click on link ' Hot!\n New!'
 step 3: Click on link ' Hot!\n New!' -> Navigate to page 'product/*'
 step 4: Take full page screenshot as checkpoint",Trivial
