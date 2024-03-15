@@ -1,6 +1,6 @@
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.model.FailureHandling
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Initialize test session: Open browser and set view port'
@@ -289,25 +289,25 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/svg_object'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_category/hyperlink_object_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_category/hyperlink_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/hyperlink_object_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/hyperlink_object'))
 
 "Step 30: Click on link  -> Navigate to page 'product/*'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_category/hyperlink_object_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_category/hyperlink_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/hyperlink_object_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/hyperlink_object'))
 
 "Step 31: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Product Details on Product Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Product Page Navigation and Price Input in Object Category_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
