@@ -1,7 +1,7 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Initialize test session: Open browser and set view port'
 
@@ -45,29 +45,29 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_object'))
 
-"Step 5: Click on link"
+"Step 5: Click on button 'Filters'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_category/hyperlink_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_category/button_filters'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/hyperlink_object'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/button_filters'))
 
-"Step 6: Click on link"
+"Step 6: Click on button 'Filters'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_category/hyperlink_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_category/button_filters'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/hyperlink_object'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/button_filters'))
 
 "Step 7: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Navigation to Category Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Verify Filters Functionality on Category Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

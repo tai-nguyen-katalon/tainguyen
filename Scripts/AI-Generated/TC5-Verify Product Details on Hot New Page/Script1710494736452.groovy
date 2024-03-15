@@ -1,7 +1,7 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Initialize test session: Open browser and set view port'
 
@@ -37,7 +37,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_hot_new'))
 
 "Step 4: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Navigation to Product Page from Hot New_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Product Details on Hot New Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
