@@ -12,7 +12,7 @@ public class TrueTestScripts {
             // import com.kms.katalon.core.model.FailureHandling
             // import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
             // import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-            // WebUI.callTestCase(findTestCase('<path to testcase>/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+            // WebUI.callTestCase(findTestCase('Login'))
             
             // Trigger a custom Login method
             // import your.package
