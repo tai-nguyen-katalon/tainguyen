@@ -1,63 +1,93 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Order Placement from Accessories Category,Navigate to the accessories category and place an order. Proceed through the checkout process by providing the required shipping information. Verify the completion of the payment process on the checkout page.,"step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-step 2: Click on link 'Accessories'
-step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'
-step 4: Click on link 'By price'
-step 5: Click on link 'By price'
-step 6: Click on svg
-step 7: Click on svg
-step 8: Click on link ' Place an order'
-step 9: Click on link ' Place an order' -> Navigate to page 'cart'
-step 10: Click on button '+'
-step 11: Click on button '+'
-step 12: Click on button 'Proceed to checkout '
-step 13: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
-step 14: Hover over div
-step 15: Click on input field 'email'
-step 16: Click on input field 'email'
-step 17: Enter input value in input field 'email'
-step 18: Click on input field 'receive marketing info'
-step 19: Enter input value in input field 'email'
-step 20: Click on input field 'receive marketing info'
-step 21: Click on button 'CONTINUE TO SHIPPING'
-step 22: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-step 23: Click on input field 'delivery id'
-step 24: Click on input field 'delivery id'
-step 25: Hover over div
-step 26: Click on input field 'shipping address.first name'
-step 27: Click on input field 'shipping address.first name'
-step 28: Hover over div
-step 29: Enter input value in input field 'shipping address.first name'
-step 30: Click on input field 'shipping address.last name'
-step 31: Enter input value in input field 'shipping address.first name'
-step 32: Click on input field 'shipping address.last name'
-step 33: Hover over div
-step 34: Enter input value in input field 'shipping address.last name'
-step 35: Click on input field 'shipping address.address line 1'
-step 36: Enter input value in input field 'shipping address.last name'
-step 37: Click on input field 'shipping address.address line 1'
-step 38: Hover over div
-step 39: Enter input value in input field 'shipping address.address line 1'
-step 40: Enter input value in input field 'shipping address.address line 1'
-step 41: Click on input field 'shipping address.zip'
-step 42: Click on input field 'shipping address.zip'
-step 43: Hover over div
-step 44: Enter input value in input field 'shipping address.zip'
-step 45: Click on input field 'shipping address.city'
-step 46: Enter input value in input field 'shipping address.zip'
-step 47: Click on input field 'shipping address.city'
-step 48: Hover over div
-step 49: Enter input value in input field 'shipping address.city'
-step 50: Click on input field 'shipping address.state'
-step 51: Enter input value in input field 'shipping address.city'
-step 52: Click on input field 'shipping address.state'
-step 53: Hover over div
-step 54: Enter input value in input field 'shipping address.state'
-step 55: Enter input value in input field 'shipping address.state'
-step 56: Click on input field 'shipping address.phone'
-step 57: Click on input field 'shipping address.phone'
-step 58: Enter input value in input field 'shipping address.phone'
-step 59: Click on button 'CONTINUE TO PAYMENT'
-step 60: Enter input value in input field 'shipping address.phone'
-step 61: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
-step 62: Take full page screenshot as checkpoint",Trivial
+1,Flow 1,,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 3: Enter input value in input field 'price min'
+Step 4: Enter input value in input field 'price max'
+Step 5: Click on button 'Search'
+Step 6: Click on svg
+Step 7: Click on label
+Step 8: Click on button ' Buy'
+Step 9: Click on link ' Place an order' -> Navigate to page 'cart'
+Step 10: Take full page screenshot as checkpoint
+",Trivial
+2,Flow 2,,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 3: Enter input value in input field 'price min'
+Step 4: Enter input value in input field 'price max'
+Step 5: Click on button 'Search'
+Step 6: Click on svg
+Step 7: Click on label
+Step 8: Click on button ' Buy'
+Step 9: Click on link ' Place an order' -> Navigate to page 'cart'
+Step 10: Take full page screenshot as checkpoint
+",Trivial
+3,Flow 3,,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 3: Enter input value in input field 'price min'
+Step 4: Enter input value in input field 'price max'
+Step 5: Click on button 'Search'
+Step 6: Call function 2738a8eb-5941-44f5-abb9-29ba904520ba
+	- Step 1: Click on svg
+	- Step 2: Click on label
+	- Step 3: Click on button ' Buy'
+	- Step 4: Click on link ' Place an order' -> Navigate to page 'cart'
+	- Step 5: Click on button '+'
+Step 7: Click on button 'Remove'
+Step 8: Click on link 'Go shopping!'
+Step 9: Take full page screenshot as checkpoint
+",Trivial
+4,Flow 4,,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 3: Enter input value in input field 'price min'
+Step 4: Enter input value in input field 'price max'
+Step 5: Click on button 'Search'
+Step 6: Call function 2738a8eb-5941-44f5-abb9-29ba904520ba
+	- Step 1: Click on svg
+	- Step 2: Click on label
+	- Step 3: Click on button ' Buy'
+	- Step 4: Click on link ' Place an order' -> Navigate to page 'cart'
+	- Step 5: Click on button '+'
+Step 7: Click on button 'Remove'
+Step 8: Click on link 'Go shopping!'
+Step 9: Take full page screenshot as checkpoint
+",Trivial
+5,Flow 5,,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on svg
+Step 3: Click on link ' Place an order' -> Navigate to page 'cart'
+Step 4: Click on button '+'
+Step 5: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
+Step 6: Click on input field 'email'
+Step 7: Enter input value in input field 'email'
+Step 8: Click on input field 'receive marketing info'
+Step 9: Click on button 'CONTINUE TO SHIPPING'
+Step 10: Take full page screenshot as checkpoint
+",Trivial
+6,Flow 6,,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on svg
+Step 3: Click on link ' Place an order' -> Navigate to page 'cart'
+Step 4: Click on button '+'
+Step 5: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
+Step 6: Click on input field 'email'
+Step 7: Enter input value in input field 'email'
+Step 8: Click on input field 'receive marketing info'
+Step 9: Click on button 'CONTINUE TO SHIPPING'
+Step 10: Take full page screenshot as checkpoint
+",Trivial
+7,Flow 7,,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 3: Click on link 'iPhone 15' -> Navigate to page 'product/*'
+Step 4: Click on label
+Step 5: Click on label
+Step 6: Click on svg
+Step 7: Click on button ' Buy'
+Step 8: Take full page screenshot as checkpoint
+",Trivial
+8,Flow 8,,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 3: Click on link 'iPhone 15' -> Navigate to page 'product/*'
+Step 4: Click on label
+Step 5: Click on label
+Step 6: Click on svg
+Step 7: Click on button ' Buy'
+Step 8: Take full page screenshot as checkpoint
+",Trivial

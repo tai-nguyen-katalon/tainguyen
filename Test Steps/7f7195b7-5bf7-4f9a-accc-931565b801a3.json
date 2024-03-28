@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'",
+        "step 3: Enter input value in input field 'price min'",
+        "step 4: Enter input value in input field 'price max'",
+        "step 5: Click on button 'Search'",
+        "step 6: Call function 2738a8eb-5941-44f5-abb9-29ba904520ba",
+        "step 7: Click on button 'Remove'",
+        "step 8: Click on link 'Go shopping!'",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
